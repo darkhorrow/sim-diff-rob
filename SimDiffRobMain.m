@@ -1,4 +1,7 @@
-it = 0;
+clc;
+clear;
+
+it = 0.1;
 cx = 0;
 cy = 0;
 ct = 0;
@@ -22,8 +25,8 @@ while ishandle(plotGraph)
     cx = nx;
     cy = ny;
     ct = nt;
-    it = it + 0.1;
-    pause(0.1);
+    %it = it + 0.1;
+    pause(0.01);
     
     cxp(end+1) = cx;
     cyp(end+1) = cy;
@@ -41,8 +44,8 @@ while ishandle(plotGraph)
             cx = nx;
             cy = ny;
             ct = nt;
-            it = it + 0.1;
-            pause(0.1);
+            %it = it + 0.1;
+            pause(0.01);
 
         end
         
